@@ -11,6 +11,7 @@ public class Product
     private String name;
     private double price;
     private String description;
+    private Category category;
 
     @Override
     public String toString()
@@ -20,6 +21,7 @@ public class Product
                 ", назва='" + name + '\'' +
                 ", ціна=" + price +
                 ", опис='" + description + '\'' +
+                ", категорія='" + category.getName() + '\'' +
                 '}';
     }
 

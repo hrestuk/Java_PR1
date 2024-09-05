@@ -5,12 +5,14 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Category {
+public class Category
+{
     private int id; // Унікальний ідентифікатор категорії
     private String name; // Назва категорії
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "Категорія{" +
                 "id=" + id +
                 ", назва='" + name + '\'' +
